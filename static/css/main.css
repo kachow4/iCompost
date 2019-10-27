@@ -20,7 +20,7 @@ h2, h3,  p {
 
 h3:hover {
     color: white;
-    font-size: 100%;
+    font-size: 200%;
     text-shadow: 2px 2px grey;
 }
 
