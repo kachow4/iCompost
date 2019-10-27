@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8" />
+    <link rel="stylesheet" href={{ url_for('static', filename='css/contributors.css') }}>
+    <title>Contributors</title>
+</head>
+<body>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+    <style>
+        * {
+            box-sizing: border-box;
+        }
+
+        .column {
+            float: left;
+            width: 25%;
+            padding: 10px;
+        }
+
+        .row:after {
+            content: "";
+            display: table;
+            clear: both;
+        }
+    </style>
+
+    <h1>Contributors</h1>
+    <a href="/"><h4>< Back</h4></a>
+    
+    
+    <div class="row">
+        <div class="column">
+            <a href="https://www.linkedin.com/in/jcbibat/"><h2>Jon Carlo Bibat</h2></a>
+            <p>School: UC San Diego</p>
+            <p>Major: Computer Engineering</p>
+            <h2 style="padding-left: 60px"><img src={{ url_for('static', filename='img/jon.png') }} width="250" height="250"></h2>
+</div>
+        <div class="column">
+            <a href="https://www.linkedin.com/in/katie-chow-24a489166/"><h2>Katie Chow</h2></a>
+            <p>School: UC Irvine</p>
+            <p>Major: Computer Science</p>
+            <h2 style="padding-left: 60px"><img src={{ url_for('static', filename='img/katie.png') }} width="250" height="250"></h2>
+        </div>
+        <div class="column">
+            <a href="https://www.linkedin.com/in/elton-ho-123552177/"><h2>Elton Ho</h2></a>
+            <p>School: UC San Diego</p>
+            <p>Major: Computer Science</p>
+            <h2 style="padding-left: 60px"><img src={{ url_for('static', filename='img/elton.png') }} width="250" height="250"></h2>
+        </div>
+        <div class="column">
+            <a href="https://www.linkedin.com/in/kellylo626/"><h2>Kelly Lo</h2></a>
+            <p>School: UC San Diego</p>
+            <p>Major: Computer Science</p>
+            <h2 style="padding-left: 60px"><img src={{ url_for('static', filename='img/kelly.png') }} width="250" height="250"></h2>
+        </div>
+    </div>
+</body>
+</html>

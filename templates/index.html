@@ -1,0 +1,119 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8">
+    <link rel="stylesheet" href={{ url_for('static', filename='css/main.css') }}>
+    <title>eCompost</title>
+</head>
+<body>
+    <a style="display:inline-block; margin-right:20px;"><h1>eCompost</h1></a>
+    <a href="./new_page.html" style="display:inline-block; text-decoration:none; color:#00FFFF; margin-right:20px;"><h3>Game</h3></a>
+    <a href="https://github.com/elel123/sdhacks2019" style="display:inline-block; text-decoration:none; color:#00FFFF; margin-right:20px;"><h3>GitHub</h3> </a>
+    <a href="/contributors" style="display:inline-block; text-decoration:none; color:#00FFFF;"> <h3> Contributors</h3></a>
+
+
+    <h2>About</h2>
+
+    <p>Play our game and learn about how to help our environment through composting and more!</p>
+
+    <!--<img src="banana.png" width="50" height="50">-->
+
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <style>
+        * {
+            box-sizing: border-box;
+        }
+
+        /* Create three equal columns that floats next to each other */
+        .column {
+            float: left;
+            width: 30%;
+            padding: 10px;
+        }
+
+        /* Clear floats after the columns */
+        .row:after {
+            content: "";
+            display: table;
+            clear: both;
+        }
+
+        ul.a {
+            list-style-type: circle;
+        }
+    </style>
+
+    <h2>What everyone should know: </h2>
+
+    <div class="row">
+        <div class="column" style="background-color:darkseagreen;">
+            <h2>Compost</h2>
+            <p>
+                Don't put in:
+                <ul class="a" style="color:white">
+                    <li>wax and wax coated cups and cartons</li>
+                    <li>oils and grease</li>
+                    <li>glossy magazine covers and wrapping paper</li>
+                    <li>dirty cardboard and paper cups</li>
+                    <li>pet waste</li>
+                </ul>
+            </p>
+            <p>
+                Do put in:
+                <ul class="a" style="color:white">
+                    <li>fruit and veggie scraps</li>
+                    <li>stale and moldy breads and grains</li>
+                    <li>old herbs and spices</li>
+                    <li>coffee grounds and paper filters</li>
+                    <li>tea and tea bags</li>
+                    <li>wool and cotton</li>
+                </ul>
+            </p>
+        </div>
+        <div class="column" style="background-color:lightsteelblue;">
+            <h2>Recycle</h2>
+            <p>Do not put in:</p>
+            <ul class="a" style="color:white">
+                <li>greasy cardboard</li>
+                <li>plastic grocery bags</li>
+                <li>styrofoam</li>
+                <li>plastic bottle caps</li>
+                <li>shredded or brightly colored paper</li>
+                <li>batteries</li>
+            </ul>
+            <p>Do put in:</p>
+            <ul class="a" style="color:white">
+                <li>metal</li>
+                <li>glass</li>
+                <li>clean paper and cardboard</li>
+                <li>aluminum food cans</li>
+                <li>corks</li>
+            </ul>
+
+
+        </div>
+        <div class="column" style="background-color:grey;">
+            <h2>Landfill</h2>
+            <p>Do not put in:</p>
+            <ul class="a" style="color:white">
+                <li>car batteries</li>
+                <li>motor oil</li>
+                <li>tires</li>
+                <li>liquid waste</li>
+                <li>cathode ray tube (CRT) screens</li>
+                <li>products containing mercury</li>
+            </ul>
+            <p>Do put in:</p>
+            <ul class="a" style="color:white">
+                <li>plastic straws</li>
+                <li>wrappers</li>
+                <li>plastic bags</li>
+                <li>confetti</li>
+                <li>clothes</li>
+            </ul>
+        </div>
+    </div>
+
+</body>
+
+</html>
