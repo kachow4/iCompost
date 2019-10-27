@@ -2,8 +2,9 @@
   "ExpandedNodes": [
     "",
     "\\static",
+    "\\static\\css",
     "\\templates"
   ],
-  "SelectedNode": "\\templates\\index.html",
+  "SelectedNode": "\\templates\\contributors.html",
   "PreviewInSolutionExplorer": false
 }
