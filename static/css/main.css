@@ -18,6 +18,12 @@ h2, h3,  p {
     color: ghostwhite; 
 }
 
+h3:hover {
+    color: white;
+    font-size: 100%;
+    text-shadow: 2px 2px grey;
+}
+
 ul {
     font-family: sans-serif;
     letter-spacing: 1.5px;
